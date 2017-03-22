@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pi-iot-hardikt
+  host: pi-iot-hardikt
+  disk_quota: 1024M
+  services:
+  - pi-iot-hardikt-cloudantNoSQLDB
+  - pi-iot-hardikt-iotf-service
